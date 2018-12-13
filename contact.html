@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>WEAR KAPAMPANGAN</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="assets/images/wklogoblk.png" type="image/x-icon" />
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card nav-op">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="home.html" class="w3-bar-item"><img id="logo-home" src="assets/images/wk2.jpg"></a>
+     <a href="contact.html" class="w3-bar-item w3-button w3-hover-yellow w3-active-yellow w3-round-xxlarge w3-ripple w3-padding-large w3-hide-small w3-right w3-yellow">CONTACT</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-hover-yellow w3-active-yellow w3-round-xxlarge w3-ripple w3-padding-large w3-hide-small w3-right ">GALLERY</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hover-yellow w3-active-yellow w3-round-xxlarge w3-ripple w3-padding-large w3-hide-small w3-right ">ABOUT</a>
+    <a href="home.html#homenow" class="w3-bar-item w3-button w3-hover-yellow w3-active-yellow w3-round-xxlarge w3-ripple w3-padding-large w3-hide-small w3-right  ">HOME</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="nav-op w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+	 <a href="home.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">GALLERY</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+<!-- Page content -->
+<div class="w3-content" style="background-image: url(assets/images/bg.jpg); background-size: 1400px;  max-width:2000px;margin-top:46px">
+
+<!-- The Contact Section -->
+  <div class="w3-center w3-container w3-content w3-padding-16" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center w3-animate-top">HAVE ANYTHING TO SAY? CONTACT US!</h2>
+    <p class="w3-opacity w3-center w3-animate-opacity"><i>Buri mu neng isulod? Nanan ka pa? (Would you like to wear one? What are you waiting for?)</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom w3-animate-opacity">
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: adrien.cunanan@gmail.com<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +639274311236<br>
+        <i class="fa fa-map-marker" style="width:30px"></i> Robinsons Starmills San Fernando
+        <iframe class="w3-center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3852.979258272278!2d120.69534481429142!3d15.049263489517964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f742566c968d%3A0x505dc2dc2d7e8bd1!2sRobinsons+Starmills!5e0!3m2!1sen!2sph!4v1544525975439" width="80%" height="20%" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="w3-col m6 w3-large w3-margin-bottom w3-animate-opacity">
+        <form action="#" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border message-box" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit" formaction="#">SEND</button>
+        </form>
+      </div>
+    </div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <a href="https://web.facebook.com/pg/wearkapampangan" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+ <a href="https://www.instagram.com/wearkapampangan/" target="_blank"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+ <a href="https://twitter.com/wearkapampangan" target="_blank"> <i class="fa fa-twitter w3-hover-opacity"></i></a>
+ <p class="w3-medium"> <a href="../portfolio/index.html" target="_blank"><img src="assets/images/logo-p.png"></a></p>
+</footer>
+
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+
+</body>
+</html>

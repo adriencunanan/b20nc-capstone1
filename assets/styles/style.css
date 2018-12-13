@@ -1,0 +1,49 @@
+
+* {
+	width: 100%
+	height: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.w3-button-index {
+	background-color: yellow;
+	width: 100px;
+	border-radius: 10px;
+	font-weight: bold;
+	margin: auto;
+	transform: translate(140%,600%);
+	z-index: 999999;
+}
+
+.message-box {
+	height: 100px;
+}
+
+.nav-op {
+	padding-top: 12px;
+
+}
+
+.gallery-image:hover {
+    transform: scale(1.5);
+    position: absolute;
+}
+
+.landing {
+	background: url("../images/bg.jpg");
+	height: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.homenow1 {
+	margin-top: 40px;
+}
+
+.gal-slide {
+	margin: auto 0;
+	padding: auto 0;
+}
